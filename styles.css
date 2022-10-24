@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  color: #4593b7;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+/* Example for @font
+@font-face {
+  font-family: Scriptina;
+  src: url("SCRIPTIN.ttf");
+} -->
+
+
+h2{
+  font-family: Scriptina;
+}
+*/
+
+#hero {
+  background-image: url("images/galaxy.webp");
+  background-size: cover;
+  padding: 10px 0 100px 0;
+}
+
+#title {
+  text-shadow: 0px 0px 4px black;
+}
+
+.btn-apply {
+  padding: 6px 12px;
+  background: white;
+  border: none;
+  color: #4593b7;
+  font-weight: bold;
+}
+
+.underline {
+  /* text-decoration-line: underline; - Better to do with a border as below*/
+  border-bottom: 4px solid white;
+}
+
+#Page-Logo {
+  width: 200px;  
+}
